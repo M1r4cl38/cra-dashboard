@@ -6,9 +6,9 @@ import style from './Data.module.css';
 function Data(x) {
     console.log(x);
     return  (
-            <div className={style.columncolor1}>
+            <div>
                 <p>{x.title}</p>
-                <p>{x.number}</p>
+                <div className={style.num}> {x.number}</div>
                 <p>Yesterday {x.number2}</p>
             </div>
     );
