@@ -1,9 +1,12 @@
 import style from './Assistant.module.css';
 
-function Assistant() {
+function Assistant(x) {
     return  (
-        <div>assistant</div>
-    );
+        <div>
+            <h4>{x.title2}</h4>
+            <p>{x.text}</p>
+        </div>
+);
 }
 
 export { Assistant };

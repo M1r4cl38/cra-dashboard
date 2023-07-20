@@ -9,6 +9,25 @@
     padding: 2rem;
 }
 
+.colname1 {
+    background-color: white;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    padding-bottom: 4rem;
+    margin-bottom: -6rem;
+    padding-top: 3rem;
+}
+
+.colname2 {
+    background-color: white;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+    margin-bottom: -4rem;
+}
+
 .columncolor1 {
     background-color: #FFE9ED;
     border-radius: 0.5rem;
@@ -35,6 +54,13 @@
 
 .columncolor5 {
     background-color: #F5F5FA;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+}
+
+.columnnocolor {
+    border-style: solid;
+    border-color: #F5F5FA;
     border-radius: 0.8rem;
     padding: 1.5rem;
 }
