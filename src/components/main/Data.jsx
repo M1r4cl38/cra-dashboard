@@ -1,52 +1,16 @@
 import style from './Data.module.css';
 
-function Data() {
+//funkcija gauna objekta su key value. 
+//reikia istraukti tinkama reiksme ir ja panaudoti
+//rasoma dinamine informacija {x.title}
+function Data(x) {
+    console.log(x);
     return  (
-        <div className={style.data}>
-           <h4> Today's data</h4>
-           <div className={style.column}>
-                <div className={style.columncolor1}>
-                    <p>text</p>
-                    <p>number</p>
-                    <p>text</p>
-                </div>
-                <div className={style.columncolor2}>
-                    <p>text</p>
-                    <p>number</p>
-                    <p>text</p>
-                </div>
-                <div className={style.columncolor3}>
-                    <p>text</p>
-                    <p>number</p>
-                    <p>text</p>
-                </div>
-                <div className={style.columncolor4}>
-                    <p>text</p>
-                    <p>number</p>
-                    <p>text</p>
-                </div>
-                <div className={style.columncolor5}>
-                    <p>text</p>
-                    <p>number</p>
-                    <p>text</p>
-                </div>
-                <div className={style.columncolor5}>
-                    <p>text</p>
-                    <p>number</p>
-                    <p>text</p>
-                </div>
-                <div className={style.columncolor5}>
-                    <p>text</p>
-                    <p>number</p>
-                    <p>text</p>
-                </div>
-                <div className={style.columncolor5}>
-                    <p>text</p>
-                    <p>number</p>
-                    <p>text</p>
-                </div>
+            <div className={style.columncolor1}>
+                <p>{x.title}</p>
+                <p>{x.number}</p>
+                <p>Yesterday {x.number2}</p>
             </div>
-        </div>
     );
 }
 
