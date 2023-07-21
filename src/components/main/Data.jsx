@@ -7,9 +7,9 @@ function Data(x) {
     console.log(x);
     return  (
             <div>
-                <p>{x.title}</p>
+                <p className={style.title3}>{x.title}</p>
                 <div className={style.num}> {x.number}</div>
-                <p>Yesterday {x.number2}</p>
+                <p className={style.past}>Yesterday {x.number2}</p>
             </div>
     );
 }

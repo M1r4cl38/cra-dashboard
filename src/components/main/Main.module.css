@@ -9,6 +9,10 @@
     padding: 2rem;
 }
 
+.box2 {
+    height: 9rem;
+}
+
 .colname1 {
     background-color: white;
     padding-left: 2rem;
@@ -32,30 +36,44 @@
     background-color: #FFE9ED;
     border-radius: 0.5rem;
     padding: 1.5rem;
+    width: 17rem;
+    height: 9rem;
+    padding-bottom: 0;
 }
 
 .columncolor2 {
     background-color: #E4EEFF;
     border-radius: 0.8rem;
     padding: 1.5rem;
+    width: 17rem;
+    height: 9rem;
+    padding-bottom: 0;
 }
 
 .columncolor3 {
     background-color: #EDE4FE;
     border-radius: 0.8rem;
     padding: 1.5rem;
+    width: 17rem;
+    height: 9rem;
+    padding-bottom: 0;
 }
 
 .columncolor4 {
     background-color: #D7F1E3;
     border-radius: 0.8rem;
     padding: 1.5rem;
+    width: 17rem;
+    height: 9rem;
+    padding-bottom: 0;
 }
 
 .columncolor5 {
     background-color: #F5F5FA;
     border-radius: 0.8rem;
     padding: 1.5rem;
+    width: 17rem;
+    height: 9rem;
 }
 
 .columnnocolor {
@@ -63,4 +81,45 @@
     border-color: #F5F5FA;
     border-radius: 0.8rem;
     padding: 1.5rem;
+}
+
+.icon {
+    background-color: #FF3D68;
+    border-radius: 10rem;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: -7.5rem; left: 11rem;
+}
+
+.icon2 {
+    background-color: #3A89FF;
+    border-radius: 10rem;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: -7.5rem; left: 11rem;
+}
+
+.icon3 {
+    background-color: #7530DD;
+    border-radius: 10rem;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: -7.5rem; left: 11rem;
+}
+
+.icon4 {
+    background-color: #44CC7E;
+    border-radius: 10rem;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: -7.5rem; left: 11rem;
+}
+
+.innericon {
+    position: relative;
+    top: 1rem; left: 1rem;
 }

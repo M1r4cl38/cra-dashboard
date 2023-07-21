@@ -4,5 +4,11 @@
     padding-top: 0.4rem;
 }
 
+.title3 {
+    color: grey;
+}
 
-
+.past {
+    color: rgb(191, 191, 191);
+    font-size: 0.9rem;
+}
