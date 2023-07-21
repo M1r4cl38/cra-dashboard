@@ -1,58 +1,23 @@
-.top {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    gap: 9rem;
-    border-radius: 1.5rem;
-    padding: 2rem;
-}
-
-.top > p {
-    font-size: 0.1rem;
-}
-
-.title {
-    font-weight: 600;
-    color: #F45B74;
-}
-
-.go {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    justify-content: flex-end;
-}
 
 .text1 {
-    font-size: 0.9rem;
-    color: rgb(143, 140, 140);
-    padding-top: 0.8rem;
+    font-size: 1rem;
+    color: #ffffff;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
 }
 
 .text2 {
     font-size: 0.7rem;
+    color: #ffffff;
 }
 
-.first,
-.second,
-.third {
-    border-radius: 0.5rem;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 13rem;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-    padding-left: 0.8rem;
-}
-
-.first {
-    background-color: #F45B74;
-}
-
-.second {
-    background-color: #78A9F7;
-}
-
-.third {
-    background-color: #B279F6;
+.golink {
+    background-color: #ffffff;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #e13450;
+    position: relative;
+    top: -2rem; left: 10rem;
 }
