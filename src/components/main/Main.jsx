@@ -19,8 +19,20 @@ import {RiPieChartFill} from 'react-icons/ri';
 
 function Main() {
     return  (
-        <main className={style.main}>
-            <Top />
+        <main>
+            <div className={style.top}>
+                <div>
+                    <h2 className={style.title}> Well begun is half done</h2>
+                    <p className={style.text1}>Complete the following steps to sell</p>
+                </div>
+                <div className={style.go}>
+                    <div className={style.topcol}>
+                       <div className={style.first}><Top  toptitle='1. Certification' description='Upload qualification information'/> </div>
+                       <div className={style.second}><Top toptitle='2. Upload a product' description='Fill in product information'/> </div>
+                       <div className={style.third}><Top toptitle='3. Open for sale' description='Choose to open any sales'/> </div>    
+                    </div>
+                </div>
+                </div> 
                 <h3 className={style.colname1}> Today's data</h3> 
                 <div className={style.data}>
                     <div className={style.box2}>
@@ -79,8 +91,8 @@ function Main() {
                         <div className={style.columnnocolor}><Assistant title2='Asset Management' text='Income and withdrawal'/> </div>
                     </div>
                     
-                </div>
-        </main>
+            </div>
+    </main>
     );
 }
 

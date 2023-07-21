@@ -149,3 +149,68 @@
     margin-top: -2.5rem;
     margin-bottom: 2.5rem;
 }
+
+.top {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+
+.top > p {
+    font-size: 0.1rem;
+
+}
+
+.title {
+    font-weight: 600;
+    color: #F45B74;
+    width: 17rem;
+}
+
+.text1 {
+    font-size: 0.9rem;
+    color: rgb(143, 140, 140);
+    padding-top: 0.8rem;
+}
+
+.go {
+    width: 50rem;
+
+}
+
+.topcol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.first {
+    border-radius: 0.5rem;
+    width: 14rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.8rem;
+    background-color: #F98B9B;
+}
+
+.second {
+    border-radius: 0.5rem;
+    width: 14rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.8rem;
+    background-color: #8AC6F5;
+}
+
+.third {
+    border-radius: 0.5rem;
+    width: 14rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.8rem;
+    background-color: #D48CF7;
+}
