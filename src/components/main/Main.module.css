@@ -76,50 +76,76 @@
     height: 9rem;
 }
 
-.columnnocolor {
-    border-style: solid;
-    border-color: #F5F5FA;
-    border-radius: 0.8rem;
-    padding: 1.5rem;
+
+
+.icon,
+.icon2,
+.icon3,
+.icon4 {
+    border-radius: 10rem;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: -7.5rem; left: 11rem;
 }
 
 .icon {
     background-color: #FF3D68;
-    border-radius: 10rem;
-    width: 4rem;
-    height: 4rem;
-    position: relative;
-    top: -7.5rem; left: 11rem;
 }
 
 .icon2 {
     background-color: #3A89FF;
-    border-radius: 10rem;
-    width: 4rem;
-    height: 4rem;
-    position: relative;
-    top: -7.5rem; left: 11rem;
+
 }
 
 .icon3 {
     background-color: #7530DD;
-    border-radius: 10rem;
-    width: 4rem;
-    height: 4rem;
-    position: relative;
-    top: -7.5rem; left: 11rem;
 }
 
 .icon4 {
     background-color: #44CC7E;
-    border-radius: 10rem;
-    width: 4rem;
-    height: 4rem;
-    position: relative;
-    top: -7.5rem; left: 11rem;
 }
 
 .innericon {
     position: relative;
     top: 1rem; left: 1rem;
+}
+
+
+.iconass {
+    border-radius: 10rem;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: 10rem; left: 11rem;
+    background-color: #FF3D68;
+}
+
+.columnnocolor {
+    border-style: solid;
+    border-color: #F5F5FA;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    width: 17rem;
+    height: 5.8rem;
+}
+
+.icon5 {
+    background-color: #F5F5F9;
+    border-radius: 0.8rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    position: relative;
+    top: 4.5rem; left: 1rem;
+}
+
+.innericon2 {
+    position: relative;
+    top: 0.6rem; left: 0.6rem;
+}
+
+.box3 {
+    height: 5.8rem;
+    margin-top: -2.5rem;
+    margin-bottom: 2.5rem;
 }

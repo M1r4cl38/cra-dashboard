@@ -6,6 +6,14 @@ import {HiUserGroup} from 'react-icons/hi';
 import {AiOutlineAccountBook} from 'react-icons/ai';
 import {RiFileList2Line} from 'react-icons/ri';
 import {BiSolidTruck} from 'react-icons/bi';
+import {ImPlay2} from 'react-icons/im';
+import {RiMiniProgramFill} from 'react-icons/ri';
+import {BsDiagram3Fill} from 'react-icons/bs';
+import {BiSolidCoupon} from 'react-icons/bi';
+import {PiStorefrontFill} from 'react-icons/pi';
+import {LiaAdSolid} from 'react-icons/lia';
+import {BsBookmarkHeartFill} from 'react-icons/bs';
+import {RiPieChartFill} from 'react-icons/ri';
 
 
 
@@ -38,14 +46,39 @@ function Main() {
                 </div>
                 <h3 className={style.colname2}> Operations Assistant</h3>
                 <div className={style.data}>
-                    <div className={style.columnnocolor}><Assistant title2='Small telecast live' text='Live sales in WeChat'/> </div>
-                    <div className={style.columnnocolor}><Assistant title2='Mini Program Store' text='WeChat Mini Program Store'/> </div>
-                    <div className={style.columnnocolor}><Assistant title2='Distribution market' text='One-click promotion'/> </div>
-                    <div className={style.columnnocolor}><Assistant title2='Coupon' text='Store marketing essentials'/> </div>
-                    <div className={style.columnnocolor}><Assistant title2='Store construction' text='Can be customized'/> </div>
-                    <div className={style.columnnocolor}><Assistant title2='Promoting ads' text='WeChat billion-level exposure'/> </div>
-                    <div className={style.columnnocolor}><Assistant title2='Promotion rebate' text='Help you sell goods'/> </div>
-                    <div className={style.columnnocolor}><Assistant title2='Asset Management' text='Income and withdrawal'/> </div>
+                    <div className={style.box3}>
+                        <div className={style.icon5}><ImPlay2 className={style.innericon2} size='2em' color='#FF3D68'/></div>
+                        <div className={style.columnnocolor}><Assistant title2='Small telecast live' text='Live sales in WeChat'/> </div>
+                    </div>
+                    <div className={style.box3}>
+                        <div className={style.icon5}><RiMiniProgramFill className={style.innericon2} size='2em' color='#44CC7E'/></div>
+                        <div className={style.columnnocolor}><Assistant title2='Mini Program Store' text='WeChat Mini Program Store'/> </div>
+                    </div>
+                    <div className={style.box3}>
+                        <div className={style.icon5}><BsDiagram3Fill className={style.innericon2} size='2em' color='#3A89FF'/></div>
+                        <div className={style.columnnocolor}><Assistant title2='Distribution market' text='One-click promotion'/> </div>
+                    </div>
+                    <div className={style.box3}>
+                        <div className={style.icon5}><BiSolidCoupon className={style.innericon2} size='2em' color='#FF3D68'/></div>
+                        <div className={style.columnnocolor}><Assistant title2='Coupon' text='Store marketing essentials'/> </div>
+                    </div>
+                    <div className={style.box3}>
+                        <div className={style.icon5}><PiStorefrontFill className={style.innericon2} size='2em' color='#3A89FF'/></div>
+                        <div className={style.columnnocolor}><Assistant title2='Store construction' text='Can be customized'/> </div>
+                    </div>
+                    <div className={style.box3}>
+                        <div className={style.icon5}><LiaAdSolid className={style.innericon2} size='2em' color='#FE593D'/></div>
+                        <div className={style.columnnocolor}><Assistant title2='Promoting ads' text='WeChat billion-level exposure'/> </div>
+                    </div>
+                    <div className={style.box3}>
+                        <div className={style.icon5}><BsBookmarkHeartFill className={style.innericon2} size='2em' color='#FF3D68'/></div>
+                        <div className={style.columnnocolor}><Assistant title2='Promotion rebate' text='Help you sell goods'/> </div>
+                    </div>
+                    <div className={style.box3}>
+                        <div className={style.icon5}><RiPieChartFill className={style.innericon2} size='2em' color='#44CC7E'/></div>
+                        <div className={style.columnnocolor}><Assistant title2='Asset Management' text='Income and withdrawal'/> </div>
+                    </div>
+                    
                 </div>
         </main>
     );
